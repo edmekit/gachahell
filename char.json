@@ -1,0 +1,27 @@
+{
+    "furina" : {
+        "name" : "Furina",
+        "element" : "Hydro",
+        "bestweapon" : "Splendor of Tranquil Waters",
+        "f2p" : "Favonious Sword",
+        "artifact" : "Gold",
+        "team" : "Neuvallete, Escoffier, Mona",
+        "hp" : "40000",
+        "critdmg" : "180%",
+        "critrt" : "70%"
+    },
+    "chasca" : {
+        "name" : "Chasca",
+        "element" : "Anemo",
+        "bestweapon" : "Astral Vulture's Crimson Plumage",
+        "f2p" : "Chain Breaker",
+        "artifact" : "Obsidian codex",
+        "team" : "Ororon, Furina, Bennet",
+        "atk" : "2000",
+        "critdmg" : "200%",
+        "critrt" : "60%"
+        
+    }
+
+
+}
