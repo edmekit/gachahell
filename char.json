@@ -21,6 +21,17 @@
         "critdmg" : "200%",
         "critrt" : "60%"
         
+    },
+    "zibai" : {
+        "name" : "Zibai",
+        "element" : "Geo",
+        "bestweapon" : "Lightbearing Moonshard",
+        "f2p" : "Flute of Ezpitzal",
+        "artifact" : "Night of the Sky's Unveiling",
+        "team" : "Linnea, Columbina, Illuga/Gorou",
+        "def" : "2000",
+        "critdmg" : "220%",
+        "critrt" : "70%"
     }
 
 
