@@ -1,6 +1,7 @@
 {
     "furina" : {
         "name" : "Furina",
+        "image" : "images/furina.jpg",
         "element" : "Hydro",
         "bestweapon" : "Splendor of Tranquil Waters",
         "f2p" : "Favonious Sword",
@@ -12,6 +13,7 @@
     },
     "chasca" : {
         "name" : "Chasca",
+        "image" : "images/chasca.png",
         "element" : "Anemo",
         "bestweapon" : "Astral Vulture's Crimson Plumage",
         "f2p" : "Chain Breaker",
@@ -24,6 +26,7 @@
     },
     "zibai" : {
         "name" : "Zibai",
+        "image" : "images/zibai.jpg",
         "element" : "Geo",
         "bestweapon" : "Lightbearing Moonshard",
         "f2p" : "Flute of Ezpitzal",
