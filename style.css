@@ -1,24 +1,10 @@
 body {
-    background-image: url(images/bg.jpg);
+    background-image: url(data/images/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
     }
 
-.characterbox {
-        display: inline-block;
-        margin: 10px;
-        text-align: center;
-    }
-    
-.characterbox img {
-        display: block;
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        margin: 0 auto;
-    }
-    
 img {
     width: 150px;
     height: 150px;
@@ -26,21 +12,7 @@ img {
     margin: 0 auto;
 }
 
-.characterbox button {
-        display: block;
-        margin: 10px auto 0;
-        padding: 10px 20px;
-        background-color: #91c6ff;
-        color: #000000;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 16px;
-        font-weight: bold;
-        font-family: 'Arial'
-    }
-
-#stats {
+#disp {
     display : flex  ;
     align-items: center;
     gap: 20px;
@@ -63,8 +35,19 @@ img {
 
 }
 
-#stats.open {
+#disp.open {
     max-height: 500px;
     padding: 20px;
     opacity: 1;
+}
+
+.dispbox {
+    display: block;
+    border-color: #000000;
+    border-radius: 10px;
+    border-style: solid;
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
 }

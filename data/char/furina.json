@@ -1,0 +1,15 @@
+{
+    "name" : "Furina",
+    "image" : "data/images/furina.jpg",
+    "element" : "Hydro",
+    "weapon" : "Splendor of Tranquil Waters",
+    "vision" : "Hydro",
+    "f2p" : "Favonious Sword",
+    "artifact" : "Gold",
+    "team" : ["Ganyu", "Barbara", "Xinyan"],
+    "hp" : "40000",
+    "atk" : "900",
+    "def" : "900",
+    "critdmg" : "180%",
+    "critrt" : "70%"
+}

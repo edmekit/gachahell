@@ -1,0 +1,16 @@
+{
+    "name" : "Chasca",
+    "image" : "data/images/chasca.png",
+    "element" : "Anemo",
+    "weapon" : "Astral Vulture's Crimson Plumage",
+    "vision" : "Anemo",
+    "f2p" : "Chain Breaker",
+    "artifact" : "Obsidian codex",
+    "team" : ["Ganyu", "Barbara", "Xinyan"],
+    "hp" : "25000",
+    "atk" : "2000",
+    "def" : "900",
+    "critdmg" : "200%",
+    "critrt" : "60%"
+
+}
