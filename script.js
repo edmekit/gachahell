@@ -12,7 +12,6 @@ search.addEventListener("click", function() {
     fetch(url)
     .then(response => response.json())
     .then(data => {
-        console.log(data);
         showChar(data);
     })
     .catch(error => console.error("JSON load failed:", error));
@@ -28,16 +27,17 @@ function showChar(chardata){
     Element: ${chardata.vision}<br>` 
 
     stats.innerHTML = `
-    HP: ${chardata.hp}<br>
-    ATK: ${chardata.atk}<br>
-    DEF: ${chardata.def}<br>
-    CRIT DMG: ${chardata.critdmg}<br>
-    CRIT RT: ${chardata.critrt}<br>`
+    HP: ${chardata.recommended.hp}<br>
+    ATK: ${chardata.recommended.atk}<br>
+    DEF: ${chardata.recommended.def}<br>
+    CRIT DMG: ${chardata.recommended.critdmg}<br>
+    CRIT RT: ${chardata.recommended.critrt}<br>`
 
     team.innerHTML = `
-    Team: ${chardata.team}<br>
-    Artifact: ${chardata.artifact}<br>
-    Weapon: ${chardata.weapon}<br>
-    F2P: ${chardata.f2p}<br>`
+    Premium Team: ${chardata.prem.team}<br>
+    F2P Team : ${chardata.f2p.team}<br>
+    Artifact: ${chardata.recommended.artifact}<br>
+    Premium Weapon: ${chardata.prem.weapon}<br>
+    F2P Weapon: ${chardata.f2p.weapon}<br>`
  
 }

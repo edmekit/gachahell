@@ -1,15 +1,24 @@
 {
     "name" : "Furina",
     "image" : "data/images/furina.jpg",
-    "element" : "Hydro",
-    "weapon" : "Splendor of Tranquil Waters",
-    "vision" : "Hydro",
-    "f2p" : "Favonious Sword",
-    "artifact" : "Gold",
-    "team" : ["Ganyu", "Barbara", "Xinyan"],
-    "hp" : "40000",
-    "atk" : "900",
-    "def" : "900",
-    "critdmg" : "180%",
-    "critrt" : "70%"
+    
+    "recommended" : {
+        "hp" : "10000",
+        "atk" : "2000 or above",
+        "def" : "900",
+        "critdmg" : "200%",
+        "critrt" : "60%",
+        "em" : "120",
+        "artifact" : "codex"
+    },
+
+    "prem" : {
+        "weapon" : "Astral",
+        "team" : ["Bennett", "Citali", "Furina"]
+    },
+
+    "f2p" : {
+        "weapon" : "Chain Breaker",
+        "team" : ["Bennett", "Diona", "Barbara"]
+    }
 }

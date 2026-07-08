@@ -1,16 +1,24 @@
 {
-    "name" : "Chasca",
+    "info" : "Chasca us lorem ipsum",
     "image" : "data/images/chasca.png",
-    "element" : "Anemo",
-    "weapon" : "Astral Vulture's Crimson Plumage",
-    "vision" : "Anemo",
-    "f2p" : "Chain Breaker",
-    "artifact" : "Obsidian codex",
-    "team" : ["Ganyu", "Barbara", "Xinyan"],
-    "hp" : "25000",
-    "atk" : "2000",
-    "def" : "900",
-    "critdmg" : "200%",
-    "critrt" : "60%"
 
+    "recommended" : {
+        "hp" : "10000",
+        "atk" : "2000 or above",
+        "def" : "620",
+        "critdmg" : "200% or above",
+        "critrt" : "40 - 50%",
+        "em" : "120",
+        "artifact" : "codex"
+    },
+
+    "prem" : {
+        "weapon" : "Astral",
+        "team" : ["Bennett", "Citali", "Furina"]
+    },
+
+    "f2p" : {
+        "weapon" : "Chain Breaker",
+        "team" : ["Bennett", "Diona", "Barbara"]
+    }
 }

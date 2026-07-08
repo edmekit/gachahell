@@ -1,15 +1,23 @@
 {
     "name" : "Zibai",
     "image" : "data/images/zibai.jpg",
-    "element" : "Geo",
-    "weapon" : "Lightbearing Moonshard",
-    "vision" : "Geo",
-    "f2p" : "Flute of Ezpitzal",
-    "artifact" : "Night of the Sky's Unveiling",
-    "team" : ["Ganyu", "Barbara", "Xinyan"],
-    "hp" : "25000",
-    "atk" : "900",
-    "def" : "2000",
-    "critdmg" : "220%",
-    "critrt" : "70%"
+    
+    "recommended" : {
+        "hp" : "10000",
+        "atk" : "2000 or above",
+        "def" : "900",
+        "critdmg" : "200%",
+        "critrt" : "60%",
+        "em" : "120",
+        "artifact" : "codex"
+    },
+    "prem" : {
+        "weapon" : "Astral",
+        "team" : ["Bennett", "Citali", "Furina"]
+    },
+
+    "f2p" : {
+        "weapon" : "Chain Breaker",
+        "team" : ["Bennett", "Diona", "Barbara"]
+    }
 }
