@@ -1,3 +1,8 @@
+body {
+    background-image: url("/images/background_gsi.jpg");
+    background-size: cover;
+}
+
 .team-icon {
     width: 200px;
     height: 200px;
