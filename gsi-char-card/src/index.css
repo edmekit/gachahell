@@ -4,11 +4,11 @@ body {
 }
 
 .team-icon {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 10px;
+    margin: 10px 10px 30px 10px;
 }
 
 .App {
@@ -20,6 +20,10 @@ body {
 .card-container {
     display: flex;
     flex-direction: column;
+    height: 270px;
     align-items: center;
-
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 5px;
 }

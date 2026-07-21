@@ -1,10 +1,10 @@
-import Card from "./Card.jsx";
+import Icon from "./Icon.jsx";
 
 const chars = ["Furina", "Chasca", "Zibai"]
 function App() {
   return (
     <div className="App">
-      {chars.map((char) => <Card character={char}/>)}
+      {chars.map((char) => <Icon character={char}/>)}
     </div>
   )
 }
