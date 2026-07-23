@@ -1,20 +1,16 @@
 body {
     background-image: url("/images/background_gsi.jpg");
     background-size: cover;
-}
-
-.team-icon {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 10px 10px 30px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
 }
 
 .App {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .card-container {
@@ -23,7 +19,69 @@ body {
     height: 270px;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.3);
+    border: 6px solid rgba(243, 131, 52, 0.5);
     border-radius: 10px;
     margin: 15px;
     padding: 5px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.team-icon {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px 10px 30px 10px;
+}
+
+
+.build-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 5px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.card-icon {
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 10px 10px 30px 10px;
+}
+
+.weapon-section, .team-section, .artifact-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(155, 152, 152, 0.5);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.team-section, .artifact-section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.weapon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bis-weapon-section, .f2p-weapon-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
