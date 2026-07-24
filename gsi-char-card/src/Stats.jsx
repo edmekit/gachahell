@@ -1,20 +1,14 @@
 function Stats({ character }) {
     return (
         <div className="stats-section">
-            <p>HP</p>
-            <p>{character.recommended.hp}</p>
-            <p>HP</p>
-            <p>{character.recommended.atk}</p>
-            <p>HP</p>
-            <p>{character.recommended.def}</p>
-            <p>HP</p>
-            <p>{character.recommended.critrt}</p>
-            <p>HP</p>
-            <p>{character.recommended.critdmg}</p>
-            <p>HP</p>
-            <p>{character.recommended.er}</p>
-            <p>HP</p>
-            <p>{character.recommended.em}</p>
+            <header>STATS</header>
+            <p>HP: {character.recommended.hp}</p>
+            <p>ATK: {character.recommended.atk}</p>
+            <p>DEF: {character.recommended.def}</p>
+            <p>CRIT Rate:{character.recommended.critrt}</p>
+            <p>CRIT DMG: {character.recommended.critdmg}</p>
+            <p>Energy Recharge: {character.recommended.er}</p>
+            <p>Element Mastery: {character.recommended.em}</p>
         </div>
     );
 }

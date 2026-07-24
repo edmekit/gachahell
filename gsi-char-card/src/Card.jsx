@@ -17,10 +17,18 @@ function Card({ character }) {
             rgba(0,0,0,0.2)
             ),
             url('/images/chascabg.jpg')`}}>
-            <Weapon character={character}/>
-            <Team character={character}/>
-            <Artifact character={character}/>
-            <Stats character={character}/>
+            <div className="weapon-team">
+                <Weapon character={character}/>
+                <Team character={character}/>
+            </div>
+            <div>
+                
+            </div>
+            <div className="artifact-stats">
+                <Artifact character={character}/>
+                <Stats character={character}/>
+            </div>
+
         </div>
     );
 }

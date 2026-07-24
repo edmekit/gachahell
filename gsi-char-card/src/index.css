@@ -6,6 +6,16 @@ body {
     color: rgb(255, 255, 255);
 }
 
+header {
+    font-size: 20px;
+    color: rgb(249, 248, 247);
+    display: flex;
+    align-self: flex-start;
+    margin: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 10px;
+}
+
+
 .App {
     display: flex;
     flex-direction: row;
@@ -50,20 +60,26 @@ body {
 }
 
 .card-icon {
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     border-radius: 10px;
     object-fit: cover;
-    margin: 10px 10px 30px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
-.weapon-section, .team-section, .artifact-section{
+.weapon-team, .stats-artifact {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+
+.weapon-section, .team-section, .artifact-section, .stats-section {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: rgba(155, 152, 152, 0.5);
     border-radius: 10px;
-    margin: 15px;
+    margin: 10px 10px 10px 30px;
     padding: 5px;
 }
 
@@ -72,6 +88,17 @@ body {
     flex-direction: column;
 }
 
+.team-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weapon-display {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 
 .weapon-container {
     display: flex;
@@ -83,5 +110,4 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
 }
