@@ -3,7 +3,7 @@ import { useState } from "react";
 import Card from "./Card.jsx";
 import LoadingCard from "./LoadingCard.jsx";
 
-const chars = ["Chasca", "Citali", "Columbina", "Flins", "Furina", "Lauma", "Mavuika", "Nefer", "Sandrone", "Skirk", "Zibai"]
+const chars = ["Chasca", "Citlali", "Columbina", "Flins", "Furina", "Lauma", "Mavuika", "Nefer", "Sandrone", "Skirk", "Zibai"]
 function App() {
   
   const [characterData, setCharacterData] = useState(null);

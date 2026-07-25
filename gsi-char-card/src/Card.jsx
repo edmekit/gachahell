@@ -2,6 +2,7 @@ import Weapon from "./Weapon.jsx";
 import Team from "./Team.jsx";
 import Artifact from "./Artifact.jsx";
 import Stats from "./Stats.jsx";
+import Notes from "./Notes.jsx";
 function Card({ character }) {
 
     if (!character) {
@@ -21,8 +22,12 @@ function Card({ character }) {
                 <Weapon character={character}/>
                 <Team character={character}/>
             </div>
-            <div>
-                
+            <div className="info-notes">
+                <div>
+                    <h1>{character.info.name}</h1>
+                    <p>{character.info.role}</p>
+                </div>
+                <Notes character={character}/>
             </div>
             <div className="artifact-stats">
                 <Artifact character={character}/>
