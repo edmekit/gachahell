@@ -1,6 +1,6 @@
 function LoadingCard(){
     return (
-        <div className="build-card"
+        <div className="load-card"
         style={{backgroundImage: `
             linear-gradient(to right,
             rgba(0,0,0,0.8),

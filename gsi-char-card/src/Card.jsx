@@ -17,23 +17,25 @@ function Card({ character }) {
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.2)
             ),
-            url('/images/chascabg.jpg')`}}>
+            url('/images/splash/${(character.info.name).toLowerCase()}_splash.png')`}}>
             <div className="weapon-team">
                 <Weapon character={character}/>
                 <Team character={character}/>
             </div>
-            <div className="info-notes">
+            <div className="stats-notes">
+                <div className="artifact-stats">
+                    <Artifact character={character}/>
+                    <Stats character={character}/>
+                </div>
+                <Notes character={character}/>
+            </div>
+            <div className="char-info"
+            style={{backgroundImage: `url('/images/bg/${(character.info.name).toLowerCase()}_bg.png')`}}>
                 <div>
                     <h1>{character.info.name}</h1>
                     <p>{character.info.role}</p>
                 </div>
-                <Notes character={character}/>
             </div>
-            <div className="artifact-stats">
-                <Artifact character={character}/>
-                <Stats character={character}/>
-            </div>
-
         </div>
     );
 }
