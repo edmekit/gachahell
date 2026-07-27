@@ -47,6 +47,9 @@ header {
 }
 
 .load-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.3);
     margin: 15px;
     padding: 5px;
@@ -84,7 +87,7 @@ header {
     width: 450px;
 }
 
-.stats-notes {
+.stats-notes{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,7 +96,7 @@ header {
     margin: 10px 30px 10px 30px;
 }
 
-.char-info {
+.char-info{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -169,3 +172,48 @@ header {
     display: grid;
     grid-template-columns: 140px 15px 1fr;
 }
+
+.weapon-loading, .team-loading, .artifact-loading, .stats-loading, .notes-loading, .char-name-loading {
+    background-color: rgba(255, 251, 251, 0.3);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.weapon-loading {
+    width: 420px;
+    height: 160px;
+    margin : 10px;
+}
+
+.team-loading {
+    width: 420px;
+    height: 300px;
+    margin: 10px;
+}
+
+.artifact-loading {
+    width: 180px;
+    height: 150px;
+    margin: 30px 10px 10px 0px;
+}
+
+.stats-loading {
+    width: 250px;
+    height: 150px;
+    margin: 30px 10px 10px 0px;
+}
+
+.notes-loading {
+    width: 480px;
+    height: 300px;
+    margin: 10px 10px 10px 10px;
+}
+
+.char-name-loading {
+    width: 425px;
+    height: 530px;
+    margin: 0px 20px 0px 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+
