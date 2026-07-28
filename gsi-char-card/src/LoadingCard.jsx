@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 function LoadingCard(){
     const skeletonVariant = {
         loading: {
-            scale: [1, 1.1, 1],
+            scale: [0.9, 1.05, 0.9],
             transition: {
             duration: 1.2,
             repeat: Infinity,
